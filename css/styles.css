@@ -66,7 +66,7 @@ ul {
   color: black;
 }
 
-.footer .logo-studio {
+.copyright .logo-studio {
   color: #ffffff;
 }
 /* header */
@@ -182,7 +182,15 @@ ul {
 
 /* hero */
 
-.hero {
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  min-height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+
   background: var(--secondary-bg-color);
   text-align: center;
 }
